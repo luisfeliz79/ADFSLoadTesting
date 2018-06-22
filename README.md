@@ -51,7 +51,7 @@
    The TLS mode to use. Valid input is tls1.0, tls1.1 or tls1.2.<br>Default is tls1.2
  <br>
  <br>
-##Examples
+## <b>Examples:</b>
 <br><br>
      Test against sts.contoso.com, for 5 minutes, using the urn:federation:MicrosoftOnline RPT<br>
           .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com -HowLongInSeconds 300<br>
