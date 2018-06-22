@@ -16,7 +16,7 @@
  <br>
 <br>
 ## <b>How to use it:</b>
- <br><br>
+ <br>
  .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com
  <br><br>
 ## <b>Available Parameters:</b><br>
@@ -51,7 +51,8 @@
    The TLS mode to use. Valid input is tls1.0, tls1.1 or tls1.2.<br>Default is tls1.2
  <br>
  <br>
-## <b>Examples:</b>
+## Examples:
+
 <br><br>
      Test against sts.contoso.com, for 5 minutes, using the urn:federation:MicrosoftOnline RPT<br>
           .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com -HowLongInSeconds 300<br>
