@@ -27,19 +27,19 @@
    <br>Default is urn:federation:MicrosoftOnline
   <br> <br>
    <b><i>HowLongInSeconds</i></b><br>
-   Amount of time to test for.<br>Default is 30 seconds
+   Amount of time to test for.<br>Default is 30 seconds<br>
  <br>  
    <b><i>Jobs</i></b>
   <br> 
    Number of Jobs to run when testing.<br>Default is 8 jobs
  <br><br>
    <b>Note:</b> In order to push the server the hardest, adjust the number of Jobs to run simulteniously
-   Increase this number until the server is hitting ~ 90-99% CPU
+   Increase this number until the server is hitting ~ 90-99% CPU<br>
  <br>  
    <b><i>Kerberos</i></b>
  <br>
    Set this to $true if you wish to use Kerberos authentication.<br>Default is $false<br>
-   When this setting is $false, the Credentials parameter will be ignored.
+   When this setting is $false, the Credentials parameter will be ignored.<br>
  <br>  
    <b><i>Credentials</i></b>
  <br>
@@ -51,11 +51,11 @@
    The TLS mode to use. Valid input is tls1.0, tls1.1 or tls1.2.<br>Default is tls1.2
  <br>
  <br>
-## <b> Examples </b>
+##Examples
 <br><br>
      Test against sts.contoso.com, for 5 minutes, using the urn:federation:MicrosoftOnline RPT<br>
           .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com -HowLongInSeconds 300<br>
-<br><br>
+<br>
      Test against sts.contoso.com, with 5 jobs, for 45 seconds, and against Trusts https://app1 and https://app2<br>
           .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com -RPs https://app1, https://app2 -Jobs 5 -HowLongInSeconds 45<br>
  <br><br>
