@@ -1,14 +1,18 @@
 # ADFSLoadTesting.ps1
+
+ A basic approach for load testing of AD FS<br>
+ <br>
  By Luis Feliz
  v1.1 BETA
 
- Portions based Josh Gavant's original work
+ Portions based Josh Gavant's original work<br>
  https://blogs.msdn.microsoft.com/besidethepoint/2012/10/17/request-adfs-security-token-with-powershell/
  <br>
  <br>
  A basic approach for load testing of AD FS
 <br>
- <b>Notes:</b> This testing method has not been officialy approved by Microsoft.<br>
+ <b>Notes:</b><br>
+        This testing method has not been officialy approved by Microsoft.<br>
         This will not work with Certificate auth<br>
         This will not work with Multi-Factor authentication<br>
  <br>
@@ -17,9 +21,9 @@
    <br>
    <br>
  How to use it:
- <br>
- .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com
  <br><br>
+ `.\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com
+ <br><br><br>
  Other Parameters
  <br>
    <b>RPs</b>
@@ -46,7 +50,7 @@
    <b>Credentials</b>
  <br>
    One or more sets of credentials to use for authentication. Default is to ask for Credentials.
-   When multiple credentials are specified, the script will choose at random for each authentication.
+   When multiple credentials are specified, the script will choose at random for each authentication.<br>
  <br>
    <b>TLSMode</b>
  <br>
