@@ -15,11 +15,13 @@
         This will not work with Multi-Factor authentication.<br>
  <br>
 <br>
-## <b>How to use it:</b>
+
+## How to use it:
  <br>
  .\ADFSLoadTesting.ps1 -ADFSUrl https://sts.contoso.com
  <br><br>
-## <b>Available Parameters:</b><br>
+
+## Available Parameters:
  <br>
    <b><i>RPs</i></b>
   <br> 
@@ -51,7 +53,8 @@
    The TLS mode to use. Valid input is tls1.0, tls1.1 or tls1.2.<br>Default is tls1.2
  <br>
  <br>
-## <b>Examples:</b>
+ 
+## Examples:
 
 <br><br>
      Test against sts.contoso.com, for 5 minutes, using the urn:federation:MicrosoftOnline RPT<br>
