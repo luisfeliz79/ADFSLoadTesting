@@ -79,7 +79,7 @@ param(
     # A file where Token request failures and errors will be saved to
     $ErrorsFileName="TokenErrors.txt",
 
-    [Parameter()][ValidateSet('tls1.0','tls1.1','tls1.2')] $TLSMode="tls12"
+    [Parameter()][ValidateSet('tls1.0','tls1.1','tls1.2')] $TLSMode="tls1.2"
 
     )
 
